@@ -9,4 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ###Added:
     -Este Archivo de Chagelog.
     -Creacion de la estructura del proyecto.
+    -Incializacion de git y la creacion de la rama version _0.0
     
