@@ -1,0 +1,49 @@
+#ifndef _C_FECHA_
+#define _C_FECHA_
+
+/**
+* @brief: Clase de  encargada de  comprobar si la fecha es correcta y tambien
+* regresa una cadena en formato dd/mm/yyyy
+* @autor ferjava
+* @version 0.1
+*/
+#include <string>
+namespace fjv
+{
+  namespace control
+  {
+    class cFecha
+    {
+     private:
+     int _m_dia = 0 , _m_mes = 0 , _m_year = 0 ;
+     public:
+     //get
+     int get_dia () {return _m_dia;};
+     int get_mes () {return _m_mes;};
+     int get_anno() {return _m_year;};
+     //set
+     void set_dia();
+     void set_mes();
+     void set_anno();
+     //Contructor
+     cFecha(int dia_value , int mes_value , int year_value);
+      /**
+      * @brief Convierte la fecha en una cadena en formato dd/mm/yyyy
+      **/
+     std::string to_string();
+     /**
+     * @brief chequea la fecha si es correcta .Si el dia esta entre 1-31 max
+     * mes de 1-12 y el año es mayor de 0
+     * @return true si es correcto y false si erroneo algun de parametros de la
+     * fecha
+     **/
+     bool check();
+
+
+    };
+  }
+}
+
+
+
+#endif //_C_FECHA_

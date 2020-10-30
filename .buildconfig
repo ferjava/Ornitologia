@@ -1,0 +1,11 @@
+[default-2]
+name=Default (copiar)
+runtime=host
+toolchain=default
+config-opts=
+run-opts=
+prefix=/home/ferjava/.cache/gnome-builder/projects/Ornitologia/builds/host
+app-id=
+postbuild=
+prebuild=
+default=true
