@@ -12,6 +12,8 @@ namespace fjv
 {
 class ExBase
 {
+ public:
+ virtual ~ExBase(){};
   virtual  std::string MostrarCausa()
   {
    return "Excepcion Base";
@@ -19,6 +21,9 @@ class ExBase
 };
 class ExFechaError : public ExBase
 {
+
+  public:
+  virtual ~ExFechaError(){};
  virtual std::string MostrarCausa()
  {
   return "Fecha Erronea";

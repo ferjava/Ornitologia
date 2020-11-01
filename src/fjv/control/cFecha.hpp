@@ -15,18 +15,18 @@ namespace fjv
     class cFecha
     {
      private:
-     int _m_dia = 0 , _m_mes = 0 , _m_year = 0 ;
+     uint _m_dia = 0 , _m_mes = 0 , _m_year = 0 ;
      public:
      //get
-     int get_dia () {return _m_dia;};
-     int get_mes () {return _m_mes;};
-     int get_anno() {return _m_year;};
+     uint get_dia () {return _m_dia;};
+     uint get_mes () {return _m_mes;};
+     uint get_anno() {return _m_year;};
      //set
-     void set_dia();
-     void set_mes();
-     void set_anno();
+     void set_dia(uint dia_value);
+     void set_mes(uint mes_value);
+     void set_anno(uint anno_value);
      //Contructor
-     cFecha(int dia_value , int mes_value , int year_value);
+     cFecha(uint dia_value , uint mes_value , uint year_value);
       /**
       * @brief Convierte la fecha en una cadena en formato dd/mm/yyyy
       **/
