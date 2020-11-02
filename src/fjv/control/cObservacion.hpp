@@ -7,7 +7,7 @@
   * @version 0.1
   */
 
-
+#include "cFecha.hpp"
 #include <string>
 
 namespace fjv
@@ -24,6 +24,7 @@ namespace fjv
   {
    private:
    //Atributos
+   cFecha * _m_fecha;    
    std::string  m_Pajaro , m_Fecha , m_Lugar , m_Persona;
    public:
    //Get Set
@@ -39,7 +40,7 @@ namespace fjv
     //cObservacion();//Constructor vacio
     cObservacion(std::string pajaro_value , std::string lugar_value , std::string persona_value ,
     			int dia_value , int mes_value , int year_value);
-
+    virtual ~cObservacion();
 
   };
  }

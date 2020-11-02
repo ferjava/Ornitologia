@@ -1,7 +1,7 @@
 
 #include "cObservacion.hpp"
+#include "cExcepcion.hpp"
 
-#pragma once
 
 namespace fjv
 {
@@ -34,8 +34,20 @@ namespace fjv
          void cObservacion::set_Fecha(int dia_value, int mes_value, int year_value)
          {
             //TODO:realizar una cadena con los valores
-
-             };
+            try
+            {
+            _m_fecha->set_dia(uint(dia_value));
+            _m_fecha->set_mes(uint(mes_value));
+            _m_fecha->set_anno(uint(year_value));
+            
+            }
+            catch(ExFechaError  &e)
+            {
+                e.MostrarCausa();
+                throw fjv::ExFechaError();
+            }
+            m_Fecha = _m_fecha->to_string();
+          };
          /**
           * @brief Recupera la fecha del actual avistamiento
           **/
@@ -66,18 +78,24 @@ namespace fjv
           /**
           * @brief Contructor vacio
           */
-          cObservacion::cObservacion(std::string pajaro_value ,std::string lugar_value,
-          std::string persona_value , int dia_value , int mes_value , int year_value)
+          cObservacion::cObservacion(std::string pajaro_value ,std::string lugar_value,std::string persona_value , int dia_value , int mes_value , int year_value)
           {
             m_Pajaro = pajaro_value;
             m_Lugar = lugar_value;
             m_Persona  = persona_value;
             try
             {
-            this->set_Fecha(dia_value,mes_value,year_value);
+            _m_fecha = new cFecha(uint(dia_value),uint(mes_value),uint(year_value));
             }
-
+            catch(ExFechaError &e)
+            {
+                e.MostrarCausa();
+            }
+            m_Fecha = _m_fecha->to_string();
           }
-
+          cObservacion::~cObservacion()
+          {
+            delete _m_fecha;     
+        }
        }
 }      

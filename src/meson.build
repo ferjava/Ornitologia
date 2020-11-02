@@ -1,14 +1,21 @@
-fjv_include =include_directories(['fjv/control',
-                                  'fjv/'])
+
 fjv_sources = (['fjv/control/cFecha.cpp'
+
                     ])
 sources = [fjv_sources ,
             'main.cpp']
-test_src = (['fjv/control/testcFecha.cpp',
-              'fjv/control/cFecha.cpp',  
-             'test.cc'
-             ])
-cppunit_dep = dependency ('cppunit')             
+
+test_fecha_src = (['fjv/control/cFecha.cpp',
+                   'fjv/control/cObservacion.cpp',
+                   'test/cFechaTest.cc',
+                   'test/cObservacionTest.cc',
+                   'cppTest.cc'])
+
+           
 executable('example1', sources ,  include_directories:fjv_include , install : true)
-e = executable( 'testcFecha' , test_src ,include_directories:fjv_include ,dependencies :cppunit_dep )
-test('cFecha_Test',e) 
+ 
+cppUTest_dep = dependency('cpputest')
+e = executable( 'testcFecha' ,test_fecha_src ,include_directories:fjv_include ,
+dependencies :cppUTest_dep)
+test('cFechaTest',e,suite:'cFecha') 
+test('cObservacionTest',e,suite:'cObservacion')

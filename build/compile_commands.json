@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/example1.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/example1.p/fjv_control_cFecha.cpp.o -MF src/example1.p/fjv_control_cFecha.cpp.o.d -o src/example1.p/fjv_control_cFecha.cpp.o -c ../src/fjv/control/cFecha.cpp",
+    "file": "../src/fjv/control/cFecha.cpp",
+    "output": "src/example1.p/fjv_control_cFecha.cpp.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/example1.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/example1.p/main.cpp.o -MF src/example1.p/main.cpp.o.d -o src/example1.p/main.cpp.o -c ../src/main.cpp",
+    "file": "../src/main.cpp",
+    "output": "src/example1.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/testcFecha.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/testcFecha.p/fjv_control_cFecha.cpp.o -MF src/testcFecha.p/fjv_control_cFecha.cpp.o.d -o src/testcFecha.p/fjv_control_cFecha.cpp.o -c ../src/fjv/control/cFecha.cpp",
+    "file": "../src/fjv/control/cFecha.cpp",
+    "output": "src/testcFecha.p/fjv_control_cFecha.cpp.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/testcFecha.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/testcFecha.p/fjv_control_cObservacion.cpp.o -MF src/testcFecha.p/fjv_control_cObservacion.cpp.o.d -o src/testcFecha.p/fjv_control_cObservacion.cpp.o -c ../src/fjv/control/cObservacion.cpp",
+    "file": "../src/fjv/control/cObservacion.cpp",
+    "output": "src/testcFecha.p/fjv_control_cObservacion.cpp.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/testcFecha.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/testcFecha.p/test_cFechaTest.cc.o -MF src/testcFecha.p/test_cFechaTest.cc.o.d -o src/testcFecha.p/test_cFechaTest.cc.o -c ../src/test/cFechaTest.cc",
+    "file": "../src/test/cFechaTest.cc",
+    "output": "src/testcFecha.p/test_cFechaTest.cc.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/testcFecha.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/testcFecha.p/test_cObservacionTest.cc.o -MF src/testcFecha.p/test_cObservacionTest.cc.o.d -o src/testcFecha.p/test_cObservacionTest.cc.o -c ../src/test/cObservacionTest.cc",
+    "file": "../src/test/cObservacionTest.cc",
+    "output": "src/testcFecha.p/test_cObservacionTest.cc.o"
+  },
+  {
+    "directory": "/home/ferjava/Proyectos/Ornitlogia/build",
+    "command": "c++ -Isrc/testcFecha.p -Isrc -I../src -I../src/fjv/control -I../src/fjv -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -MD -MQ src/testcFecha.p/cppTest.cc.o -MF src/testcFecha.p/cppTest.cc.o.d -o src/testcFecha.p/cppTest.cc.o -c ../src/cppTest.cc",
+    "file": "../src/cppTest.cc",
+    "output": "src/testcFecha.p/cppTest.cc.o"
+  }
+]

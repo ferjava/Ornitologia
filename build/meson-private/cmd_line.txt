@@ -1,0 +1,6 @@
+[options]
+prefix = /home/ferjava/.cache/gnome-builder/projects/Ornitologia/builds/host
+backend = ninja
+
+[properties]
+
