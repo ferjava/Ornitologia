@@ -1,1 +1,0 @@
-[{"name": "cppunit", "version": "1.15.1", "compile_args": [], "link_args": ["/usr/lib64/libcppunit.so"]}, {"name": "cpputest", "version": "4.0", "compile_args": [], "link_args": ["/usr/lib/gcc/x86_64-redhat-linux/10/libstdc++.so", "/usr/local/lib64/libCppUTest.a", "/usr/local/lib64/libCppUTestExt.a"]}]

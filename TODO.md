@@ -14,6 +14,8 @@
    ~~-FIXED: cambiar a cppUTest para las pruebas~~
     ~~-Crear los test para cFecha y cObervacion~~
     ~~-Crear un directorio para test~~
+# [3-11-2020]:
+     -Crear la  Class ListaObservaciones y su test
+     
     
-    
-    
+   	

@@ -1,5 +1,5 @@
-#include "cFecha.hpp"
-#include "cExcepcion.hpp"
+#include "control/cFecha.hpp"
+#include "control/cExcepcion.hpp"
 /**
  * Contiene los test de clase Cfecha 
 */

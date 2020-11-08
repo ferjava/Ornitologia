@@ -1,6 +1,6 @@
 
-#include "cObservacion.hpp"
-#include "cExcepcion.hpp"
+#include "control/cObservacion.hpp"
+#include "control/cExcepcion.hpp"
 
 
 namespace fjv

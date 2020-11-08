@@ -1,2 +1,0 @@
-/home/ferjava/Proyectos/Ornitlogia/build/meson-private/cmake_cppUTest/CMakeFiles/rebuild_cache.dir
-/home/ferjava/Proyectos/Ornitlogia/build/meson-private/cmake_cppUTest/CMakeFiles/edit_cache.dir

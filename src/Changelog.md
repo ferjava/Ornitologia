@@ -13,3 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     -cObervacion
     -Excecpciones base
     -cFecha
+    -cListaObservaciones mantiene u crea una lista de cObservaciones
+    

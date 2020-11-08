@@ -8,48 +8,16 @@
  * @copyright Copyright (c) 2020
  *
  */
-#include <stdio.h>
-#include <iostream>
-#include "cExcepcion.hpp"
-#include "cFecha.hpp"
-#define ESCAPE_KEY 27
+#include "CFjvApplication.hpp"
+#include "config.h"
 int main ()
 {
- ///Creamos las variables donde introduciremos las fechas
- uint DIA , MES , ANNO;
- int key;
-
- //Creamos el bucle infinito hasta que pulsemos la tecla escape
-
-     /* code */
+    fjv::CFjvApplication *app = new fjv::CFjvApplication();
+    app->set_Name(PROYECT_STRING);
+    app->set_Version_string(VERSION);
+    app->Init();
 
 
-  while (key != ESCAPE_KEY)
-
- {
-     std::cout << "Pulsa ESC para salir " << std::endl;
-     std::cout << "_____________________" << std::endl;
-
-     std::cout << "Dia :";
-     std::cin >> DIA ;
-     std::cout << "Mes:";
-     std::cin >> MES ;
-     std::cout << "Año:" ;
-     std::cin >> ANNO ;
-     try
-     {
-
-        fjv::control::cFecha fecha(DIA,MES,ANNO);
-         std::cout << fecha.to_string() << std::endl ;
-     }
-     catch(fjv::ExFechaError &e )
-     {
-       std::cout <<   e.MostrarCausa() << std::endl;
-     }
-
-
-   key = getchar();
- }
- system("PAUSE");
+ delete app;
  exit(EXIT_SUCCESS);
 }

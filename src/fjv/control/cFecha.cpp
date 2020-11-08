@@ -4,8 +4,8 @@
  * @versio 0.1
  **/
 #include <iostream>
-#include "cFecha.hpp"
-#include "cExcepcion.hpp"
+#include "control/cFecha.hpp"
+#include "control/cExcepcion.hpp"
 namespace fjv
 {
     namespace control

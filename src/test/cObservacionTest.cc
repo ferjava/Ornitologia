@@ -1,5 +1,6 @@
-#include "cObservacion.hpp"
-#include "cExcepcion.hpp"
+#include "control/cObservacion.hpp"
+
+#include "control/cExcepcion.hpp"
 
 
 /** 
@@ -57,7 +58,7 @@ TEST(cObservacion, Excepciones)
      //Creando un objeto con uns fecha erronea
    /* CHECK_THROWS(fjv::ExFechaError , c = new fjv::control::cObservacion("Aguila","Cabañas","Angel",44,2,200));*/
     //Excepcion por reasiganar una fecha erronea
-    CHECK_THROW(fjv::ExFechaError , a->set_Fecha(288,13,299));
+    CHECK_THROWS(fjv::ExFechaError , a->set_Fecha(288,13,299));
 }
     
     
