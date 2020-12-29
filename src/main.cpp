@@ -10,6 +10,7 @@
  */
 #include "CFjvApplication.hpp"
 #include "config.h"
+#include <iostream>
 int main ()
 {
     fjv::CFjvApplication *app = new fjv::CFjvApplication();
@@ -19,5 +20,9 @@ int main ()
 
 
  delete app;
+ //system("clear");
+ std::cin.get();
  exit(EXIT_SUCCESS);
-}
+ }
+
+

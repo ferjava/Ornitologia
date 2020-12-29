@@ -5,6 +5,7 @@ fjv_sources = ([SRC_CONTROL + 'cFecha.cpp',
                 SRC_FJV     + 'CFjvApplication.cpp',
                 ])
 sources = [fjv_sources ,
+            'CAppTest.cpp',
             'main.cpp']
 
 

@@ -16,6 +16,9 @@
     ~~-Crear un directorio para test~~
 # [3-11-2020]:
      -Crear la  Class ListaObservaciones y su test
-     
+# [8-11-2020]:
+    -Crear una clase cAppTest para probar las clases
+    
+ 
     
    	
