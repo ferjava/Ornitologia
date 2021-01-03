@@ -1,15 +1,4 @@
 #include "CAppTest.hpp"
-<<<<<<< HEAD
-
-CAppTest::CAppTest()
-{
-}
-
-CAppTest::~CAppTest()
-{
-}
-
-=======
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -130,4 +119,3 @@ la aplicacion
 void CAppTest::Exit()
 {
 }
->>>>>>> cambios para c++20
