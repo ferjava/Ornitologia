@@ -14,7 +14,7 @@ namespace fjv
          * @brief Comprueba que el dia es entre 1 y (28-30-31)segun el mes o (29) segun el año
          *
          */
-        void cFecha::set_dia(uint dia_value)
+        void cFecha::set_dia(unsigned int dia_value)
         {
             //Comprobamos el valor entre 1 y 31
             if(dia_value <= 0 || dia_value > 31)
@@ -23,14 +23,14 @@ namespace fjv
             }
             if(dia_value > 0 && dia_value <=31)
             {
-               uint tmp_mes = this->get_mes();
+               unsigned int tmp_mes = this->get_mes();
               switch(tmp_mes)
               {
                   case 1:
                   case 2:
                      {
-                      uint tmp_anno = this->get_anno();
-                      uint dia_feb = 28;
+                      unsigned int tmp_anno = this->get_anno();
+                      unsigned int dia_feb = 28;
                       if( ((tmp_anno % 4) == 0 && (tmp_anno % 100)!=0)
                       || (tmp_anno % 400) == 0)
                       {
@@ -92,7 +92,7 @@ namespace fjv
          *
          * @param mes_value
          */
-       void cFecha::set_mes(uint mes_value)
+       void cFecha::set_mes(unsigned int mes_value)
        {
            while( mes_value <= 0 || mes_value > 12)
            {
@@ -106,7 +106,7 @@ namespace fjv
         *
         * @param anno_value
         */
-        void cFecha::set_anno(uint anno_value)
+        void cFecha::set_anno(unsigned int anno_value)
        {
            _m_year =  anno_value;
        }
@@ -117,7 +117,7 @@ namespace fjv
          * @param mes_value
          * @param year_value
          */
-       cFecha::cFecha(uint dia_value , uint mes_value , uint year_value)
+       cFecha::cFecha(unsigned int dia_value , unsigned int mes_value , unsigned int year_value)
        {
 
 

@@ -36,9 +36,9 @@ namespace fjv
             //TODO:realizar una cadena con los valores
             try
             {
-            _m_fecha->set_dia(uint(dia_value));
-            _m_fecha->set_mes(uint(mes_value));
-            _m_fecha->set_anno(uint(year_value));
+            _m_fecha->set_dia(dia_value);
+            _m_fecha->set_mes(mes_value);
+            _m_fecha->set_anno(year_value);
             
             }
             catch(ExFechaError  &e)
@@ -85,7 +85,7 @@ namespace fjv
             m_Persona  = persona_value;
             try
             {
-            _m_fecha = new cFecha(uint(dia_value),uint(mes_value),uint(year_value));
+            _m_fecha = new cFecha(int(dia_value),int(mes_value),int(year_value));
             }
             catch(ExFechaError &e)
             {

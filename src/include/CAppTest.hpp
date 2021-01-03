@@ -24,7 +24,11 @@ class CAppTest : public fjv::CFjvApplication
   protected:
      void Pantalla_Inicio();
      void Pantalla_AddObservacion();
+<<<<<<< HEAD
      void Pantall_MostrarObserv();
+=======
+     void Pantalla_MostrarObserv();
+>>>>>>> cambios para c++20
   private:
      std::list<fjv::control::cObservacion*>lista_observacion;
      fjv::control::cObservacion* swap_obser = nullptr;//FIXME:Se necesita
