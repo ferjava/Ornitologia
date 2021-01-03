@@ -1,0 +1,1 @@
+[{"name": "cpputest", "compile_args": ["-IC:/msys64/mingw64/bin/../include"], "link_args": ["-LC:/msys64/mingw64/bin/../lib", "-lstdc++", "C:/msys64/mingw64/bin/../lib/libCppUTest.a", "C:/msys64/mingw64/bin/../lib/libCppUTestExt.a"]}]

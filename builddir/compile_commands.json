@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/25a6634@@example1@exe/cFecha.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/control/cFecha.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/25a6634@@example1@exe/cObservacion.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/control/cObservacion.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/25a6634@@example1@exe/CFjvApplication.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/CFjvApplication.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/25a6634@@example1@exe/CAppTest.cpp.obj.rsp",
+    "file": "../src/CAppTest.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/25a6634@@example1@exe/main.cpp.obj.rsp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/cFecha.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/control/cFecha.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/cObservacion.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/control/cObservacion.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/CFjvApplication.cpp.obj.rsp",
+    "file": "e:/Ornitologia/src/fjv/CFjvApplication.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/cFechaTest.cc.obj.rsp",
+    "file": "../src/test/cFechaTest.cc"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/cObservacionTest.cc.obj.rsp",
+    "file": "../src/test/cObservacionTest.cc"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/CFjvApplicationTest.cpp.obj.rsp",
+    "file": "../src/test/CFjvApplicationTest.cpp"
+  },
+  {
+    "directory": "e:\\Ornitologia\\builddir",
+    "command": "c++ @src/test/d4bfbdd@@fjvtest@exe/fjvtest.cc.obj.rsp",
+    "file": "../src/test/fjvtest.cc"
+  }
+]

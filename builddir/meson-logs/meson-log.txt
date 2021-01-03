@@ -1,0 +1,35 @@
+Build started at 2021-01-03T11:43:52.723897
+Main binary: C:\Program Files\Meson\meson.exe
+Python system: Windows
+The Meson build system
+Version: 0.50.1
+Source dir: e:\Ornitologia
+Build dir: e:\Ornitologia\builddir
+Build type: native build
+Project name: Ornitlogia
+Project version: 0.0.0
+Native C compiler: cc (gcc 10.2.0 "cc (Rev6, Built by MSYS2 project) 10.2.0")
+Native C++ compiler: c++ (gcc 10.2.0 "c++ (Rev6, Built by MSYS2 project) 10.2.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Configuring config.h using configuration
+Dependency cpputest found: YES (cached)
+Adding test "cFechaTest"
+Adding test "cObservacionTest"
+Adding test "CFjvApplicationTest"
+Message: CONSTRUYENDO  EL PROYECTO ORNITOLOGIA
+Build targets in project: 2
+Found ninja-1.8.2 at 'C:\Program Files\Meson\ninja.EXE'
+Running compile:
+Working directory:  C:\Users\fgsj\AppData\Local\Temp\tmpz6giinjr
+Command line:  c++ C:\Users\fgsj\AppData\Local\Temp\tmpz6giinjr\testfile.cpp -pipe -c -o C:\Users\fgsj\AppData\Local\Temp\tmpz6giinjr\output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/
+programs: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../lib/;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../;D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/lib/
+
+Compiler stderr:
+ 
