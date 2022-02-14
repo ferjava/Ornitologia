@@ -8,12 +8,12 @@
  * @copyright Copyright (c) 2020
  *
  */
-#include "CFjvApplication.hpp"
+#include "CAppTest.hpp"
 #include "config.h"
 #include <iostream>
 int main ()
 {
-    fjv::CFjvApplication *app = new fjv::CFjvApplication();
+    CAppTest *app = new CAppTest();
     app->set_Name(PROYECT_STRING);
     app->set_Version_string(VERSION);
     app->Init();

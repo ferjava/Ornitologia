@@ -23,16 +23,16 @@ o listar las observaciones
  void CAppTest::Pantalla_Inicio()
 {
     // borra la pantalla
-    std::system("clear");//para windows seria "cls"
+    std::system("cls");//para windows seria "cls"
     int opcion ;
 
     do{
-        std::system("clear");
-        std::cout << "/n/n Menu de Opciones " << std::endl;
+        std::system("cls");
+        std::cout << " Menu de Opciones " << std::endl;
         std::cout << "1.Nueva Observacion" << std::endl;
         std::cout << "2.Lista de Observaciones" << std::endl;
         std::cout << "0.Salir" << std::endl;
-        std::cout << "/n/n Ingresa una opcion";
+        std::cout << "Ingresa una opcion";
         std::cin >> opcion;
 
         // Realizamos la opcion
@@ -57,13 +57,13 @@ a la lista de observaciones
 **/
 void CAppTest::Pantalla_AddObservacion()
 {
-    std::system("clear");//Borramos la pantalla
+    std::system("cls");//Borramos la pantalla
     std::string  pajaro, lugar ,avistador ;
     unsigned int dia,mes ,anno;
-    std::cout << "/n/n NUEVA ENTRADA" << std::endl;
+    std::cout << " NUEVA ENTRADA" << std::endl;
     std::cout << "Pajaro :";std::cin >> pajaro;
-    std::cout << "/nLugar  :";std::cin >> lugar;
-    std::cout << "/nPersona:";std::cin >> avistador;    std::cout << "Fecha  :" << std::endl;
+    std::cout << "Lugar  :";std::cin >> lugar;
+    std::cout << "Persona:";std::cin >> avistador;   
     std::cout << "Fecha:    " << std::endl;
     std::cout << "Dia :"; std::cin >> dia ;
     std::cout << "Mes :"; std::cin >> mes ;
@@ -106,6 +106,7 @@ inicio de la aplicacion
 **/
 void CAppTest::Init()
 {
+    Pantalla_Inicio();
 }
 /**
 Update se encarga de Actualizar la aplicacion
