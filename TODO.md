@@ -3,6 +3,8 @@
     @Autor: Ferjava
     @fecha :2 -11-2020
 ---
+# [25-08-2022]
+    ~~-Crear una Clase Logger~~
 
 # [28-10-2020] para la version 0.1
     ~~-Crear los archivos de la clase cOservacion~~
