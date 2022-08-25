@@ -2,6 +2,7 @@ SRC_FJV=('@0@/src/fjv/'.format(meson.source_root()))
 SRC_CONTROL=('@0@/src/fjv/control/'.format(meson.source_root()))
 fjv_sources = ([SRC_CONTROL + 'cFecha.cpp',
                 SRC_CONTROL + 'cObservacion.cpp',
+                SRC_CONTROL + 'cLog.cpp',
                 SRC_FJV     + 'CFjvApplication.cpp',
                 ])
 sources = [fjv_sources ,

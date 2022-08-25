@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <string>
 #include "control/cObservacion.hpp"
+#include "control/cLog.hpp"
 
 /**
  * brief:  Aplicacion base en consola para
@@ -10,7 +11,7 @@
  **/
 CAppTest::CAppTest()
 {
-
+    fjv::control::LOG->log("Inicia la aplicaion AppTest");
 }
  CAppTest::~CAppTest()
 {
