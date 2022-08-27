@@ -4,7 +4,7 @@
 #include <string>
 #include "control/cObservacion.hpp"
 #include "control/cLog.hpp"
-
+#include "cAppDialog.hpp"
 /**
  * brief:  Aplicacion base en consola para
  * comprobar las clases
@@ -23,8 +23,11 @@ o listar las observaciones
 **/
  void CAppTest::Pantalla_Inicio()
 {
+    auto principal = new fjv::AppDialog();
+    principal->Create();
+    delete principal ;
     // borra la pantalla
-    std::system("clear");//para windows seria "cls"
+    /*std::system("clear");//para windows seria "cls"
     int opcion ;
 
     do{
@@ -51,7 +54,7 @@ o listar las observaciones
         }
 
     }while (opcion !=0);
-
+*/
 }
 /**
 Pantalla de AddObservacion añade una nueva obervacion
