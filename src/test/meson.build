@@ -9,7 +9,9 @@ test_source = (['cFechaTest.cc',
 
 
 #dependencia de cpputest
-cppUTest_dep = dependency('cpputest')
+cppUTest_dep =[ dependency('cpputest'),
+                dependency('libyui'),
+                    ]   
 #añadimos los obj
 test_fjv_src = [fjv_sources ,
                 test_source ]

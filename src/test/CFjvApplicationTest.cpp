@@ -19,6 +19,7 @@ TEST_GROUP(CFjvApplication)
 
 TEST(CFjvApplication, Create)
 {
-  FAIL("Start here");
+  FAIL("Start here");//>Error creado por mi
+  
 }
 

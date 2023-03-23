@@ -1,7 +1,7 @@
 
 #include "control/cObservacion.hpp"
 #include "control/cExcepcion.hpp"
-
+#include "control/cLog.hpp"
 
 namespace fjv
 {
@@ -89,6 +89,7 @@ namespace fjv
             }
             catch(ExFechaError &e)
             {
+                fjv::control::LOG->log("ERROR FECHA_NO_CORRECTA");
                 e.MostrarCausa();
             }
             m_Fecha = _m_fecha->to_string();

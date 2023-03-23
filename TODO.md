@@ -4,6 +4,10 @@
     @fecha :2 -11-2020
 ---
 
+# [*-08-2022]
+    ~~-Crear una Clase Logger~~
+    ~~-Preparar la aplicacion para libYUI
+    
 # [28-10-2020] para la version 0.1
     ~~-Crear los archivos de la clase cOservacion~~
     ~~-Crear un test de la clase cObservacion~~
